@@ -79,6 +79,7 @@ textarea
 /* pretty sure I am missing something to make the border be responsive with the text fields */
 .contact_form {
     border: 1px solid black;
+    padding: 5px 5px 5px 5px;
 } 
 
 .list {
