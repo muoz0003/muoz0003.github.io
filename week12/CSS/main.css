@@ -1,0 +1,33 @@
+/* 
+font-family: 'Nova Square', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header, main {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+/* h1, h2 {
+    font-family: font-family: 'Nova Square', sans-serif; 
+} */
+
+.fa-barcode {
+    font-size: 6rem;
+    color: brown;
+    
+}
+
+.map iframe {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+
+    /* if margin 0 auto is not working try adding display block */
+}
