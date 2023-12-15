@@ -1,190 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Three Star Media</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Three Star Media</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&amp;display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
-
 <body>
+  <section>
+    <div class="overlay-box"></div>
     <div class="container">
-        <header class="master-head">
-            <a href="index.html"><img src="images/images/logo.png" alt="mobile-logo" class="mobile-logo"></a>
-            <!-- logo anchor tag that leads to home page -->
-            <nav class="main-nav">
-                <ul class="nav-list">
-                    <!-- will use this class for the same style as about us section -->
-                    <li>
-                        <a href="index.html" class="current">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">About Us</a>
-                    </li>
-                    <li>
-                        <a href="#">Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Team</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li><!-- search bar later will be styled on css -->
-                    <!-- form to make the search bar -->
-                    <!-- <link rel="stylesheet"
-                        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-                    <!-- adds the magnifying glass -->
-                    <form class="search-bar" action="#">
-                        <input type="text" placeholder="Search.." name="search"><i class="fa-solid fa-magnifying-glass"></i>
-                    </form>
-                </ul>
-            </nav>
-        </header>
-        <section class="Welcome">
-            <!-- will use this class to put the oppacity in css 0 0 0 6 -->
-            <!-- <Body background="images/images/main-banner.jpg"> maybe use this instead? or will add it in CSS -->
-            <h1>Welcome to Three Star Media</h1><!-- main h1 with the image of main-banner -->
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum ipsa repudiandae, ullam
-                sit facere quos sint eius unde voluptatem illum adipisci placeat modi blanditiis, maxime illo
-                voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum ipsa
-                repudiandae, ullam sit facere quos sint eius unde voluptatem illum adipisci placeat modi blanditiis,
-                maxime illo voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum
-                ipsa repudiandae, ullam sit facere quos sint eius unde voluptatem illum adipisci placeat modi
-                blanditiis, maxime illo voluptates.</p>
-            <!-- button conect with us, also make a anchor to jump to contact us section -->
-            <a href="#" class="btn" target="_blank">Connect with Us <i class="fa-solid fa-play" style="color: #000000;"></i></a>
-        </section><!-- end of section welcome -->
-        <section class="About Us" id="about-us">
-            <!-- ID for about us to jump into -->
-            <img src="./images/images/about-us.jpg" alt="about-us" title="about-us">
-            <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum ipsa repudiandae, ullam
-                sit facere quos sint eius unde voluptatem illum adipisci placeat modi blanditiis, maxime illo
-                voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum ipsa
-                repudiandae, ullam sit facere quos sint eius unde voluptatem illum adipisci placeat modi blanditiis,
-                maxime illo voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum
-                ipsa repudiandae, ullam sit facere quos sint eius unde voluptatem illum adipisci placeat modi
-                blanditiis, maxime illo voluptates.</p>
-        </section><!-- end of section about us -->
-    </div><!-- opening services section -->
-
-    <section class="our-services">
-        <h2>Our Services</h2>
-        <h3>Digital Transformation</h3><img src="./images/images/digital.jpg" alt="digital" title="digital">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum ipsa repudiandae, ullam
-            sit facere quos sint eius unde voluptatem illum adipisci placeat modi blanditiis, maxime illo
-            voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><a href="#" class="btn"
-            target="_blank">Digital Plans<i class="fa-solid fa-play" style="color: #000000;"></i></a>
-        <h3>Marketing</h3><img src="./images/images/marketing.jpg" alt="marketing" title="marketing">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum ipsa repudiandae, ullam
-            sit facere quos sint eius unde voluptatem illum adipisci placeat modi blanditiis, maxime illo
-            voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><a href="#" class="btn"
-            target="_blank">Marketing Plans<i class="fa-solid fa-play" style="color: #000000;"></i></a>
-        <h3>Video Production</h3><img src="./images/images/video.jpg" alt="vide" title="video">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum ipsa repudiandae, ullam
-            sit facere quos sint eius unde voluptatem illum adipisci placeat modi blanditiis, maxime illo
-            voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><a href="#" class="btn"
-            target="_blank">Video Plans<i class="fa-solid fa-play" style="color: #000000;"></i></a>
-        <h3>Web Development</h3><img src="./images/images/web.jpg" alt="web" title="web">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum ipsa repudiandae, ullam
-            sit facere quos sint eius unde voluptatem illum adipisci placeat modi blanditiis, maxime illo
-            voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><a href="#" class="btn"
-            target="_blank">Web Plans<i class="fa-solid fa-play" style="color: #000000;"></i></a>
-        <h3>Print</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum ipsa repudiandae, ullam
-            sit facere quos sint eius unde voluptatem illum adipisci placeat modi blanditiis, maxime illo
-            voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><a href="#" class="btn"
-            target="_blank">Print Plans<i class="fa-solid fa-play" style="color: #000000;"></i></a> <!-- closing the services section  -->
-        <!-- opening vision section -->
-        <section class="Our-Vision" id="our-vision">
-            <!-- ID for about us to jump into -->
-            <img src="./images/images/vision.jpg" alt="vision" title="vision">
-            <!-- background image style in CSS -->
-            <h2>Vision</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum ipsa repudiandae,
-                ullam sit facere quos sint eius unde voluptatem illum adipisci placeat modi blanditiis, maxime illo
-                voluptates.</p><a href="#" class="btn" target="_blank">Learn more<i class="fa-solid fa-play" style="color: #000000;"></i></a>
-        </section><!-- closing vision section  -->
-        <!-- opening Our Team Section  -->
-        <div class="our-team">
-            <section class="our-services">
-                <h2>Our Team</h2><img src="./images/images/john.jpg" alt="John" title="John">
-                <h3>John Doe</h3>
-                <h4>CEO & Owner</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum ipsa
-                    repudiandae, ullam sit facere quos sint eius unde voluptatem illum adipisci placeat modi
-                    blanditiis, maxime illo voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <h2>Our Team</h2><img src="./images/images/bob.jpg" alt="Bob" title="Bob">
-                <h3>Bob Rite</h3>
-                <h4>CFO & Co-Owner</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum ipsa
-                    repudiandae, ullam sit facere quos sint eius unde voluptatem illum adipisci placeat modi
-                    blanditiis, maxime illo voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <!-- closing Our Team Section -->
-                <!-- Contact Form -->
-                <div class="contact_form">
-                    <section>
-                        <h2>Contact Us</h2>
-                        <form action="thanks.html" method="post">
-                            <div>
-                                <label for="fullname">Full Name</label> <input type="text" size="100" id="fullname"
-                                    name="fullname">
-                            </div>
-                            <div>
-                                <label for="youremail">Email</label> <input type="email" size="100" id="youremail">
-                            </div>
-                            <div>
-                                <label for="message">Message</label>
-                                <textarea name="message" rows="10" id="message"></textarea>
-                            </div><button type="submit">Send</button>
-                        </form>
-                    </section>
-                </div><!-- closing contact form -->
-                <!-- Hours of Operations Table -->
-                <div class="hours_operation">
-                    <section>
-                        <h2>Hours of Operation</h2>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Days</th>
-                                    <th>Hours</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Monday-Friday</td>
-                                    <td>9AM - 6PM</td>
-                                </tr>
-                                <tr>
-                                    <td>Saturday-Sunday</td>
-                                    <td>Closed</td>
-                                </tr>
-                            </tbody>
-                        </table><!-- closing Hours of Operations Table  -->
-                        <!-- opening location Section  -->
-                        <!-- using iframe to embed a map -->
-                        <div class="map">
-                            <section>
-                                <h2>Location</h2><iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11215.942034019386!2d-75.77460676431653!3d45.34910479515788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1ses!2sca!4v1701139921731!5m2!1ses!2sca"
-                                    width="600" height="450" style="border:0;" allowfullscreen loading="lazy"
-                                    referrerpolicy="no-referrer-when-downgrade"></iframe> <!-- Site Footer -->
-                            </section>
-                        </div>
-                    </section>
-                </div>
-            </section>
-            </main>
-            <footer class="site-footer">
-                <p class="copy">Copyright © Three Star Media., 2020 All images are taken from <a
-                        href="https://unsplash.com/">Unsplash</a></p>
-            </footer>
-    </section>
-    </main>
+      <header class="master-head">
+        <a href="index.html"><img src="images/images/logo.png" alt="mobile-logo" class="mobile-logo"></a>
+        <nav class="main-nav">
+          <ul class="nav-list">
+            <li>
+              <a href="index.html" class="current">Home</a>
+            </li>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">Team</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="search-bar" action="#">
+            <input type="text" placeholder="Search.." name="search">
+          </form>
+        </nav>
+      </header>
+    </div>
+  </section>
+  <section>
+    <div class="main-banner">
+      <div class="overlay"></div>
+      <h1>Welcome to Three Star Media</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum ipsa repudiandae, ullam sit facere quos sint eius unde voluptatem illum adipisci placeat modi blanditiis, maxime illo voluptates.</p><a href="#" class="btn" target="_blank">Connect with us</a>
+    </div>
+  </section><!-- end of section welcome -->
+  <!-- Begining of section about us -->
+  <section>
+    <div class="about-us-section" id="about-us">
+      <img src="./images/images/about-us.jpg" alt="about-us" title="about-us">
+      <div class="about-us-content">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum ipsa repudiandae, ullam sit facere quos sint eius unde voluptatem illum adipisci placeat modi blanditiis, maxime illo voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum ipsa repudiandae, ullam sit facere quos sint eius unde voluptatem illum adipisci placeat modi blanditiis, maxime illo voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum ipsa repudiandae, ullam sit facere quos sint eius unde voluptatem illum adipisci placeat modi blanditiis, maxime illo voluptates.</p>
+      </div>
+    </div><!-- end of section about us -->
+  </section><!-- opening services section -->
+  <section>
+    <div class="services-section">
+      <h2>Our Services</h2>
+      <div class="services-item">
+        <div class="services-item-container">
+          <img src="./images/images/digital.jpg" alt="Digital Transformation" class="services-item-image">
+          <div class="services-item-content">
+            <h3>Digital Transformation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum ipsa repudiandae, ullam sit facere quos sint eius unde voluptatem illum adipisci placeat modi blanditiis, maxime illo voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><a href="#" class="btn" target="_blank">Digital Plans</a>
+          </div>
+        </div>
+      </div>
+      <div class="services-item">
+        <div class="services-item-container">
+          <img src="./images/images/marketing.jpg" alt="marketing" class="marketing">
+          <div class="services-item-content">
+            <h3>Marketing</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum ipsa repudiandae, ullam sit facere quos sint eius unde voluptatem illum adipisci placeat modi blanditiis, maxime illo voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><a href="#" class="btn" target="_blank">Marketing Plans</a>
+          </div>
+        </div>
+      </div>
+      <div class="services-item">
+        <div class="services-item-container">
+          <img src="./images/images/video.jpg" alt="video" class="video">
+          <div class="services-item-content">
+            <h3>Video Production</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum ipsa repudiandae, ullam sit facere quos sint eius unde voluptatem illum adipisci placeat modi blanditiis, maxime illo voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><a href="#" class="btn" target="_blank">Video Plans</a>
+          </div>
+        </div>
+      </div>
+      <div class="services-item">
+        <div class="services-item-container">
+          <img src="./images/images/web.jpg" alt="web" class="web">
+          <div class="services-item-content">
+            <h3>Web Development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum ipsa repudiandae, ullam sit facere quos sint eius unde voluptatem illum adipisci placeat modi blanditiis, maxime illo voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><a href="#" class="btn" target="_blank">Web Plans</a>
+          </div>
+        </div>
+      </div>
+      <div class="services-item">
+        <div class="services-item-container">
+          <img src="./images/images/print.jpg" alt="print" class="print">
+          <div class="services-item-content">
+            <h3>Print</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum ipsa repudiandae, ullam sit facere quos sint eius unde voluptatem illum adipisci placeat modi blanditiis, maxime illo voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><a href="#" class="btn" target="_blank">Print Plans</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- closing services section -->
+  <!-- opening vision section -->
+  <div class="vision-section">
+    <img src="./images/images/vision.jpg" alt="vision" title="vision">
+    <div class="vision-section-content">
+      <h2>Our Vision</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum ipsa repudiandae, ullam sit facere quos sint eius unde voluptatem illum adipisci placeat modi blanditiis, maxime illo voluptates.</p><a href="#" class="btn" target="_blank">Learn more</a>
+    </div>
+  </div><!-- closing vision section -->
+  <!-- opening Our Team Section  -->
+  <div class="team-section">
+    <div class="team-section-content">
+      <div class="team-member">
+        <div class="team-member-content">
+          <img src="./images/images/john.jpg" alt="John Doe portrait">
+          <h2>John Doe</h2>
+          <p class="role">CEO and Co-owner</p>
+          <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum ipsa repudiandae, ullam sit facere quos sint eius unde voluptatem illum adipisci placeat modi blanditiis, maxime illo voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="team-member">
+        <div class="team-member-content">
+          <img src="./images/images/bob.jpg" alt="Bob portrait">
+          <h2>Bob Rite</h2>
+          <p class="role">CFO & Co-Owner</p>
+          <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nobis cum ipsa repudiandae, ullam sit facere quos sint eius unde voluptatem illum adipisci placeat modi blanditiis, maxime illo voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+  </div><!-- closing Our Team Section -->
+  <!-- Contact Form -->
+  <div class="contact-section">
+    <div class="contact-section-content">
+      <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="#" class="contact-form">
+          <div class="form-group">
+            <label for="full-name">Full Name</label> <input type="text" id="full-name" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label> <input type="email" id="email" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label> 
+            <textarea id="message" rows="4" class="form-control form-control-textarea"></textarea>
+          </div><button type="submit" class="submit-button">Send</button>
+        </form>
+      </div>
+      <div class="location-section">
+        <h2>Location</h2>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11215.942034019386!2d-75.77460676431653!3d45.34910479515788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1ses!2sca!4v1701139921731!5m2!1ses!2sca" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </div><!-- closing contact form -->
+  <!-- Hours of Operations Table -->
+  <div class="hours-of-operation-section">
+    <div class="hours-of-operation-content">
+      <h2>Hours of operation</h2>
+      <div class="hours-table">
+        <div class="hours-column">
+          <ul class="hours-list">
+            <li>Monday - Friday</li>
+            <li>Saturday - Sunday</li>
+          </ul>
+        </div>
+        <div class="hours-column">
+          <ul class="hours-list">
+            <li>9 AM - 6 PM</li>
+            <li>Closed</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div><!-- opening location Section  -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-column">
+        <p>Copyright © Three Star Media., 2020 All images are taken from <a href="https://unsplash.com/">Unsplash</a></p>
+        <div class="footer-column"></div>
+      </div>
+    </div>
+  </footer>
 </body>
-
 </html>
